@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'OpiumNewC';
+  src: url('../fonts/OpiumNewC-Bold.eot');
+  src: url('../fonts/OpiumNewC-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpiumNewC-Bold.woff2') format('woff2'),
+  url('../fonts/OpiumNewC-Bold.woff') format('woff'),
+  url('../fonts/OpiumNewC-Bold.ttf') format('truetype'),
+  url('../fonts/OpiumNewC-Bold.svg#OpiumNewC-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpiumNewC';
+  src: url('../fonts/OpiumNewC.eot');
+  src: url('../fonts/OpiumNewC.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpiumNewC.woff2') format('woff2'),
+  url('../fonts/OpiumNewC.woff') format('woff'),
+  url('../fonts/OpiumNewC.ttf') format('truetype'),
+  url('../fonts/OpiumNewC.svg#OpiumNewC') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+

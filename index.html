@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Slider</title>
+  </head>
+  <body>
+    <section class="years">
+      <div class="container">
+        <div class="years__wrapper">
+            <div class="years__inner">
+                <div class="years__body">
+                    <span class="years__num">1938</span>
+                    <img class="years__arrow" src="img/lineSlider.svg" alt="arrow">
+                </div>
+                <div class="years__slider slider-years">
+                  <div class="slider-years__body _swiper">
+                    <div class="swiper-wrapper">
+                        <div class="slider-years__slide swiper-slide">
+                            <div class="slider-years__img">
+                                <img src="img/slide1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="slider-years__slide swiper-slide">
+                            <div class="slider-years__img">
+                                <img src="img/slide2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="slider-years__slide swiper-slide">
+                            <div class="slider-years__img">
+                                <img src="img/slide3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- навигация -->
+            <div class="years__arrows slider-arrows">
+                <button
+                  type="button"
+                  class="slider-arrow slider-arrow_prev"></button>
+                <button
+                  type="button"
+                  class="slider-arrow slider-arrow_next"></button>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <script src="js/slider.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
