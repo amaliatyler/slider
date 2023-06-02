@@ -154,12 +154,36 @@ button::-moz-focus-inner {
   position: absolute;
   bottom: 0;
   left: 110px;
+  max-width: 1170px;
+}
+
+.slider-years__wrapper {
+  /* width: 100%; */
+  width: 1170px;
+  overflow:hidden;
+  border-left: 10px solid #7a1a40;
+}
+
+.slider-years__inner {
+  display: flex;
+  transition: 0.5s all;
 }
 
 .slider-years__slide {
   overflow: hidden;
   height: 324px;
-  width: 452px;
+  width: 580px;
+}
+
+.slider-years__slide:not(.active) {
+  width: 60px !important;
+  padding: 0 100px;
+}
+
+.slider-years__slide.active {
+  width: 100%;
+  margin-left: unset;
+  margin-right: unset;
 }
 
 .slider-years__img {
