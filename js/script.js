@@ -7,10 +7,14 @@ const slides = document.querySelectorAll('.slider-years__slide'),
       
 
 slidesField.style.width = 100 * slides.length + '%';
-slidesField.style.width = 580 + (60 * (slides.length - 1)) + ((slides.length - 1) * 100) + 'px';
+// slidesField.style.width = 580 + (60 * (slides.length - 1)) + ((slides.length - 1) * 100) + 'px';
 /*slidesField.width = 580px + (60px * (slides.length - 1)) + margin/padding */
 
 let offset = 0;
+
+const rect = slidesWrapper.getBoundingClientRect();
+console.log('Смещение X относительно документа:', rect.x + pageXOffset)
+console.log('Смещение Y относительно документа:', rect.y + pageYOffset)
 
 function deleteNotDigits(str) {
     return +str.replace(/\D/g, ''); /* regExp*/
